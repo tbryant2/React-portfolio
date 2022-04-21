@@ -1,3 +1,6 @@
+## Description 
+A webpage built around works I have created as well as my background. I used React, Javascript, and CSS. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

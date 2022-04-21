@@ -9,13 +9,7 @@ function About() {
       <div className='profile'>
       <img src={profImage} className="my-2" alt="cover" />
         <p className='bio'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
-          condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
-          mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum.
-          Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique
-          justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea
-          dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh.
-          Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          Front-end web developer with a background in Music and a bachelor's degree from Berklee College Of Music in music production and design. Recently earned a certificate in full stack development from the bootcamp at University of Texas at Austin, with newly developed skills in JavaScript, CSS, React.js, and responsive web design. Known as an creative problem solver, passionate about executing the creative process harmoniously, with a focus on mobile-first design and development. With each project, my aim is to best engage my audience for an eye-catching, seamless user experience. I'm also passionate about making my own music. 
         </p>
       </div>
     </section>
