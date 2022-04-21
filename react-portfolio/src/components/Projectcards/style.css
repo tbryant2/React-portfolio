@@ -1,0 +1,11 @@
+.projectcard-img {
+    float: none;
+  max-height: 17vw;
+  min-height: 17vw;
+  max-width:32vw;
+  min-width: 32vw;
+}
+
+.project{
+  width: 40%;
+}
