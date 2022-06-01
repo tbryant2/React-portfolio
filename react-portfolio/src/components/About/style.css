@@ -1,25 +1,140 @@
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 1px;
-    height: 100%;
-    left:80px; 
-}
-
-.bio {
-    left: 400px;
-    flex-wrap: wrap;
-    text-align: left;
-    margin-top: 0px;
-    height: 100%;
-    padding: 20px 20px;
-}
-
-.profile{
+.i {
     display: flex;
-    flex-direction: row;
-    margin: 0 10%;
-    height: 200px;
-    margin-bottom: 20px;
+    height: 100vh;
+    /* background-color: gray; */
 }
 
+.i-left {
+    flex: 1;
+    padding: 20px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.i-right {
+    flex: 1;
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+}
+
+.i-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.i-intro {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.i-name {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.i-titles {
+    height: 40px;
+    overflow: hidden;
+}
+
+.i-titles-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    25%{
+        transform: translateY(-50px)
+    }
+    50%{
+        transform: translateY(-100px)
+    }
+    75%{
+        transform: translateY(-150px)
+    }
+    100%{
+        transform: translateY(-200px)
+    }
+}
+.i-titles-item {
+    height: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(102, 0, 204);
+    display: flex;
+    align-items: centers;
+}
+
+.i-description {
+    padding: 5px 0;
+}
+
+.i-card.bg {
+    position: absolute;
+    top: 180px;
+    right: 90px;
+    background-color: #000000;
+}
+
+.i-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.i-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.icon-wrapper {
+   row-gap: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: start;
+   align-items: flex-start;
+   align-content: flex-start;
+}
+
+.i-icon {
+    text-decoration: none;
+    color: #2eaf7d;
+    padding-right: 15px;
+}
+
+.i-icon:hover {
+    text-decoration: none;
+    color: #3fd0c9;
+}
+
+.resume-btn {
+    margin-top: 3px;
+    border: none;
+    padding: 0 25px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #2eaf7d;
+    border-radius: 5px;
+    height: 44px;
+}
+
+.resume-btn:hover {
+    background-color: #3fd0c9;
+}
+ 
+.resume-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}

@@ -1,12 +1,12 @@
 header {
     /* background-image: '../../assets/background/bgpattern.jpg'; */
-    background-color: red;
+    background-color: rgb(127, 191, 255);
     min-height: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmin);
-    color: white;
+    color: rgb(102, 0, 204);
 }
 
 h1 {

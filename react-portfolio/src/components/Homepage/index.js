@@ -4,7 +4,7 @@ import About from '../About';
 import Contact from '../Contact';
 import Portfolio from '../Portfolio';
 import Resume from '../Resume';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+// import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Homepage({ currentPage }) {
     const createPage = () => {
@@ -22,7 +22,7 @@ function Homepage({ currentPage }) {
 
     return (
         <section>
-            <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
+            {/* <h2>{capitalizeFirstLetter(currentPage.name)}</h2> */}
             <Data>{createPage()}</Data>
         </section>
     );

@@ -28,23 +28,23 @@ function Portfolio() {
           {
             name: 'PWA Budget Tracker',
             image: "budget-tracker",
-            description: '',
+            description: 'Useful app to track budgets and deductions',
             link: "https://strawberry-pie-29674.herokuapp.com/",
             repo: "https://github.com/tbryant2/pwa-budget-tracker"
           },
           {
-            name: 'Rough Days',
-            image: "rough-days",
-            description: 'A social network platform engaging around human interactions revolving around their dogs',
-            link: "",
-            repo: "https://github.com/sarahwylie/ruff-days"
+            name: 'Beers and Bands',
+            image: "beers-bands",
+            description: 'Find a local brewpub and your favorite band or concert venue. Search by city and date to plan one or several nights of drunken moshing, chill jamming, or groovy grinding',
+            link: "https://sarahwylie.github.io/BeersandBands/",
+            repo: "https://github.com/tbryant2/BeersandBands"
           },
           {
-            name: 'Project 3',
-            image: "workday",
-            description: 'MERN Stack',
-            link: "https://github.com",
-            repo: "https://github.com"
+            name: 'Flower Power',
+            image: "flower-power",
+            description: 'A user based website offering interaction and wise words between plant lovers',
+            link: "https://flowerpowerrr.herokuapp.com/",
+            repo: "https://github.com/tbryant2/flower-power"
           },
     ]);
 
