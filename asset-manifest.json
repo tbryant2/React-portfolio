@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.3515547f.css",
+    "main.js": "/react-portfolio/static/js/main.125c2890.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/team-profile.jpg": "/react-portfolio/static/media/team-profile.63f3dda3eab35f8fcd02.jpg",
+    "static/media/budget-tracker.jpg": "/react-portfolio/static/media/budget-tracker.fba04428201cc4713b6a.jpg",
+    "static/media/selfie.jpg": "/react-portfolio/static/media/selfie.427443720c92dfd09383.jpg",
+    "static/media/rough-days.jpg": "/react-portfolio/static/media/rough-days.12ef29de440c4003a446.jpg",
+    "static/media/bgpattern.jpg": "/react-portfolio/static/media/bgpattern.106f5f73063e1022e130.jpg",
+    "static/media/beers-bands.jpg": "/react-portfolio/static/media/beers-bands.485183a21c9412f35494.jpg",
+    "static/media/social-network.jpg": "/react-portfolio/static/media/social-network.cd18e38309ec482ddd32.jpg",
+    "static/media/workday.jpg": "/react-portfolio/static/media/workday.209f920d624ad798cc69.jpg",
+    "static/media/flower-power.jpg": "/react-portfolio/static/media/flower-power.2cbc20f035f6a66e4485.jpg",
+    "static/media/logo.svg": "/react-portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.3515547f.css.map": "/react-portfolio/static/css/main.3515547f.css.map",
+    "main.125c2890.js.map": "/react-portfolio/static/js/main.125c2890.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3515547f.css",
+    "static/js/main.125c2890.js"
+  ]
+}
