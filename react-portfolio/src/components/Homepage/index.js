@@ -11,8 +11,6 @@ function Homepage({ currentPage }) {
         switch (currentPage.name) {
             case 'about me':
                 return <About />;
-            case 'contact':
-                return <Contact />;
             case 'portfolio':
                 return <Portfolio />;
             case 'resume':
